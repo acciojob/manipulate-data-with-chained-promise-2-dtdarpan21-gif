@@ -1,5 +1,5 @@
 //your JS code here. If required.
-const output = document.getElementBYId("output");
+const output = document.getElementById("output");
 function delay(ms) {
 	return new Promise(resolve => setTimeout(resolve,ms));
 }
